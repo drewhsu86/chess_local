@@ -1,0 +1,188 @@
+ /* @import url('https://fonts.googleapis.com/css?family=Questrial');*/
+
+
+body {
+  /* background: url('../images/background.png') no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: lightblue;
+  text-align: center;
+  font-family: 'Times', sans-serif;
+
+}
+
+ul {
+  padding:0;
+}
+
+
+.gradient {
+    /* background-color: rgba(255,255,255,.7); */
+}
+
+
+.container {
+  padding: 10%;
+}
+
+h1 {
+  padding: 0 0 45px 0;
+  font-weight: bold;
+}
+
+h1,h2,h3 {
+  color: black;
+}
+h3 {
+  margin: 15px 0 !important;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.col {
+  float: left;
+}
+
+.row {
+  justify-content: center;
+  padding-top: 100%
+  background-color: lightblue;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: black;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.sideBar {
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  overflow-y: scroll;
+  margin-right:30%;
+  margin-left:auto;
+}
+
+.sqBoard {
+  position: relative;
+  width: 900px;
+  padding-top: 0%;
+  background-color: lightblue;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.chessTable {
+  position: relative;
+  width: 80%;
+}
+
+.chessRow {
+  position: relative;
+}
+
+.chessCell {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border: 3px solid lightgrey;
+
+}
+
+.blackCell {
+  color: white;
+  background-color: black;
+}
+
+.whiteCell {
+  color: black;
+  background-color: white;
+}
+
+td {
+    text-align: center;
+    vertical-align: center;
+}
+
+.gameInfo {
+  position: absolute;
+
+  top: 45%;
+  left: 50%;
+  margin: auto;
+
+  background-color: white;
+  border: white solid 10px;
+  border-radius: 20px;
+}
+
+.bCapInfo {
+  position: absolute;
+
+  top: 5%;
+  left: 50%;
+  margin: auto;
+
+
+  background-color: darkgrey;
+  border: darkgrey solid 10px;
+  border-radius: 20px;
+}
+
+.wCapInfo {
+  position: absolute;
+
+  top: 80%;
+  left: 50%;
+  margin: 10px;
+
+  background-color: lightgrey;
+  border: lightgrey solid 10px;
+  border-radius: 20px;
+}
+
+.pieceImg {
+  position: absolute;
+
+  width: 50px;
+  height: 50px;
+
+  top: 25px;
+  left: 25px;
+
+  z-index: 1;
+  margin: auto;
+}
+
+.capImg {
+  position: relative;
+
+  width: 20px;
+  height: 20px;
+}
+
+p {
+  z-index: 2;
+}
