@@ -1,7 +1,8 @@
 # chess_local
 simple chess for two players on one screen/computer
 
-6/15/20
+6/15/20 
+
 [Deployed on Surge](https://drewhsu86-chess-local-jquery.surge.sh)
 
 10/7/19 - first upload
